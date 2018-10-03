@@ -1,0 +1,41 @@
+<form>
+  <div class="form-group">
+    <label for="pastTagsTextArea1">Past Tags 1</label>
+    <textarea id="pastTagsTextArea1" name="pastTagsTextArea1" rows="3" [(ngModel)]="past1"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="pastTagsTextArea2">Past Tags 2</label>
+    <textarea id="pastTagsTextArea2" name="pastTagsTextArea2" rows="3" [(ngModel)]="past2"></textarea>
+  </div>
+  <div class="form-group">
+    <input type="radio" name="limit" value="10" [(ngModel)]="limit" checked> 10<br>
+    <input type="radio" name="limit" value="15" [(ngModel)]="limit"> 15<br>
+    <input type="radio" name="limit" value="20" [(ngModel)]="limit"> 20<br>
+    <input type="radio" name="limit" value="25" [(ngModel)]="limit"> 25<br>
+    <input type="radio" name="limit" value="30" [(ngModel)]="limit"> 30<br>
+  </div>
+</form>
+
+<div class="form-group">
+  <label for="categories">Tag Categories</label>
+  <div *ngFor="let category of tagCategorySelects">
+    <label>
+      <input type="checkbox"
+        name="categories"
+        value="{{category.id}}"
+        [(ngModel)]="category.selected"/>
+      {{category.id}}
+    </label>
+
+</div>
+</div>
+
+
+
+<button (click)="onButton()">Combo</button>
+
+
+<h2>Results</h2>
+<div class="results">{{results}}</div>
+<h2>Limited Tags</h2>
+<div class="results">{{limitedTags}}</div>
