@@ -2,6 +2,14 @@ import {TagCategory} from './tagCategory';
 
 export const TAG_DB: TagCategory[] = [
   {
+    id: 'photography',
+    tags: '#agameoftones #ig_masterpiece #ig_exquisite #ig_shotz #global_hotshotz #superhubs #main_vision #master_shots #exclusive_shots #hubs_united #jaw_dropping_shotz #worldshotz #theworldshotz #pixel_ig #photographyislifee #photographyislife #photographysouls #photographyeveryday #photographylover #worldbestgram #iglobal_photographers #ig_great_pics #ig_myshot #shotwithlove #justgoshoot #xposuremag #icatching #collectivelycreate #wanderlust #heatercentral #highsnobiety #shotzdelight'
+  },
+  {
+    id: 'fine-art',
+    tags: '#fineartphotography #finearephotographer #conceptualphotography #fineartportrait #artisticphotography #emotive #artisoninstagram #of2humans #capturedconcepts #visualsoflife #l0tsabraids #featuremeofh #pixel_ig #marvelshot #whyconcept #forbiddenart #visualcreators #visualsgang'
+  },
+  {
     id: 'moody',
     tags: '#MoodyGrams #gearednomad #thecreative #sombresociety #quietthechaos #vzcomood #ig_mood #folkcreative #visualambassadors #peoplescreatives #royalsnappingartists #sombrescapes #shotzdelight #mainvision #moody_captures #moodytones #moodgrams #visualvibes'
   },
@@ -35,11 +43,11 @@ export const TAG_DB: TagCategory[] = [
   },
   {
     id: 'geek',
-    tags: '#instanerd #nerdsofinstagram #geekstagram'
+    tags: '#instanerd #nerdsofinstagram #geekstagram #instageek #geek #nerd #nerdlife #nerdculture #geekculture #geeklifestyle #nerdstuff #geekingout #nerdingout #nerdalert #nerdstatus'
   },
   {
     id: 'friends/squad',
-    tags: '#friendshipgoals #friendships #squadgoals #friendgoals #bestiegoals #mysquadisbetterthanyours #friendswhoarefamily'
+    tags: '#friendshipgoals #friendships #squadgoals #squadup #wegowayback #friendgoals #bestiegoals #mysquadisbetterthanyours #friendswhoarefamily'
   },
   {
     id: 'starwars',
@@ -55,7 +63,11 @@ export const TAG_DB: TagCategory[] = [
   },
   {
     id: 'marvel',
-    tags: '#marvel #marvelmovie'
+    tags: '#marvel #marvelmovie #mcu #marvelcomics'
+  },
+  {
+    id: 'xmen',
+    tags: '#xmen #uncannyxmen #xmencomics'
   },
   {
     id: 'DC',
@@ -103,7 +115,7 @@ export const TAG_DB: TagCategory[] = [
   },
   {
     id: 'dogs',
-    tags: '#cheatmeal'
+    tags: '#dogsofinstagram'
   },
   {
     id: 'tattoo',
